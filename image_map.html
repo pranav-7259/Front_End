@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Image Maps </h1>
+
+    Here we have an image, which is split into 2 parts. 1<sup>st</sup> half will show you <b>computer</b>
+    and 2<sup>nd</sup> half will show you <b>human</b>.
+
+    <p></p>
+    
+    <img src="frond_end.jpg" usemap="#photomap"
+    style="width: 400px; height : 300px">
+
+    <map name="photomap">
+        <area shape="rect" coords="0,0,400,149" target="_blank"
+        alt="Computer" href="https://en.wikipedia.org/wiki/Computer" title = "Computer">
+        <area shape = "rect" coords = "0,150,400,300" targer = "_blank"
+        alt = "Human" href="https://en.wikipedia.org/wiki/Human" title = "Human">
+    </map>
+</body>
+</html>
