@@ -1,0 +1,17 @@
+
+.red_class{
+    color: red;
+}
+
+div.blue_class{
+    color: blue;
+}
+
+body{
+    color: green;
+    font-size: 14pt;
+}
+
+h1{
+    color: maroon;
+}

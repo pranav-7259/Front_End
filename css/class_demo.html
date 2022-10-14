@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href="style.css">
+    <style>
+        .font_modifier{
+            font-size: 18pt;
+            background-color: yellow;
+        }
+
+        h1,h2{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2><u>First Way</u></h2>
+    <!--First Way -Inline Styling -->
+    <div style="color:red">First Div</div>
+    <div style="color: blue">Second Div</div>
+    <div style="color: red" >Third Div</div>
+
+    <p></p>
+    
+    <!--Second Way - Applying Classes-->
+    <h2><u>Second Way</u></h2>
+    <!--red_class is present in style.css and font_modifier is present in the internal stylesheet under head tag-->
+    <div class="red_class font_modifier">First Div</div>
+    <div class = "blue_class">Second Div</div>
+    <div class = "red_class"> Third Div</div>
+
+</body>
+</html>
