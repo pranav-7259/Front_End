@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+        p:first-of-type{
+            color: magenta;
+        }
+
+        p:first-child{
+            color: brown;
+        }
+
+        p:hover{
+            color: orangered;
+            font-size: 20px;
+        }
+        
+        a:visited{
+            color: red;
+        }
+        
+        input:checked{
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div> This is div, the first child of body</div>
+    <p> This is the second child p, this should 
+        apply first-of-type style. There is no-first
+        child style applied here as div is first child of body.
+    </p>
+    <p> This is another p element, 3rd child of body</p>
+    <a href="https://www.squarespace.com/" target="_blank"> Squarespace </a>
+    <p></p>
+    Checkbox
+    <input type="checkbox">
+</body>
+</html>

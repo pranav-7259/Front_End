@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- All p elements inside div (div p)-->
+    <!-- div > p , p is the child of div-->
+    <!-- div + p , p immidiately after div closing-->
+    <!-- p ~ div , div preceeded by p-->
+    <style>
+        div p{
+            color: yellowgreen;
+        }
+
+        div > p {
+            color: brown;
+        }
+
+        div + p{
+            color: yellow;
+        }
+
+        p ~ div {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Preceeding P
+    </p>
+    
+    <div>
+        Hello from div after p
+        <p> p inside div
+            <p> p inside p - Descent of div</p>
+        </p>
+    </div>
+
+    <div>
+        <p> p inside div - child of div
+            <p> p inside p - Descent of div</p>
+        </p>
+    </div>
+
+    <p>p outside div</p>
+</body>
+</html>
