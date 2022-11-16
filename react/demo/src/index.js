@@ -5,12 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Hello} from './basics/Hello';
 import {DateTime} from './basics/DateTime'
+import DateTimeCC from './basics/DateTimeCC';
+import SystemTimeDisplayMessage from './basics/SystemTimeDisplayMessage';
+import Greet from './basics/Greet';
+import GreetCC from './basics/GreetCC';
 //Render a component called App
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DateTime />
+    <GreetCC />
   </React.StrictMode>
 );
 
